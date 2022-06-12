@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-twdne",
-  "description": "Send Random Anime Waifu Avatars in Koishi ([This Waifu Does Not Exist](https://www.thiswaifudoesnotexist.net/))",
-  "version": "1.1.0",
+  "description": "Send Random Anime Avatars in Koishi ([This Waifu Does Not Exist](https://www.thiswaifudoesnotexist.net/))",
+  "version": "1.1.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -35,7 +35,18 @@
     "AI",
     "learning"
   ],
+  "koishi": {
+    "description": {
+      "en": "Send Random Anime Avatars ([This Waifu Does Not Exist](https://www.thiswaifudoesnotexist.net/))",
+      "zh": "发送随机动漫头像 (基于 [This Waifu Does Not Exist](https://www.thiswaifudoesnotexist.net/))"
+    }
+  },
   "peerDependencies": {
-    "koishi": "^4.6.1"
+    "koishi": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "koishi": "^4.7.2",
+    "typescript": "^4.7.2"
   }
 }
